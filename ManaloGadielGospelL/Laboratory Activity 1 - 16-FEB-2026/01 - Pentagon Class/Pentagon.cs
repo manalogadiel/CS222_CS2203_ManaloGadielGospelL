@@ -24,8 +24,8 @@ class Pentagon
         Console.WriteLine(label);
         Console.WriteLine("--------------------------");
         Console.WriteLine("Side length: " + side);
-        Console.WriteLine("Perimeter: " + GetPerimeter().ToString("0.000"));
-        Console.WriteLine("Area: " + GetArea().ToString("0.000"));
+        Console.WriteLine($"Perimeter: {GetPerimeter():F3}");
+        Console.WriteLine($"Area: {GetArea():F3}");
         Console.WriteLine();
     }
     static void Main()
